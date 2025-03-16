@@ -1,0 +1,39 @@
+# Employee Microservices Application
+
+## 📌 API Endpoints
+
+### ➤ Employee CRUD Operations
+
+1. **Create Employee**
+    - `POST /api/employees`
+    - **Request Body** (JSON):
+   ```json
+   {
+     "name": "John Doe",
+     "email": "john@example.com",
+     "mobile": "9876543210",
+     "address": "New York, USA"
+   }
+Get All Employees
+
+    GET /api/employees
+
+Get Employee by ID
+
+    GET /api/employees/{id}
+
+Update Employee
+
+    PUT /api/employees/{id}
+    Request Body (JSON):
+{
+"name": "John Updated",
+"email": "john.updated@example.com",
+"mobile": "9876543210",
+"address": "Los Angeles, USA"
+}
+
+
+Delete Employee
+
+    DELETE /api/employees/{id}

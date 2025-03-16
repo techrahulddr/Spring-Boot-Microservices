@@ -1,0 +1,5 @@
+package com.devdutt.empapp.exception;
+
+public class ResourceNotFoundException extends RuntimeException{
+    
+}
